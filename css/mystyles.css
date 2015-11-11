@@ -1,0 +1,96 @@
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    color: #1B1B1B;
+}
+
+header small {
+    color: snow;
+    opacity: 0.75;
+}
+
+main a {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+iframe,
+object,
+embed {
+    max-width: 100%;
+}
+
+label {
+    text-align: right;
+}
+
+footer a {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: snow;
+    text-decoration: none;
+}
+
+.container {}
+
+.row-header {
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background-image: url(../img/biel.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.container h2 {
+    padding-bottom: 40px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.panel-heading {
+    text-align: center;
+    padding: 15px;
+    background-color: #1B1B1B;
+    color: snow;
+}
+
+.panel-body {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #1B1B1B;
+    color: #1B1B1B;
+}
+
+.row-footer {
+    background-color: #1B1B1B;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: snow;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
